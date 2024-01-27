@@ -6,7 +6,7 @@ let intentos=0;
 let listaNumerosSorteados =[];
 //se empieza a colocar limites a la lista
 let numeroMaximo=10;
-console.log(numeroSecreto);
+//console.log(numeroSecreto);
     
 function asignarTextoElemento(elemento,texto){
     let elementoHTML =document.querySelector(elemento);
@@ -19,7 +19,7 @@ function generarNumeroSecreto(){
     // return Math.floor(Math.random()*10+1);
     let numeroGenerado = Math.floor(Math.random()*numeroMaximo+1);
     //si el numero generado ya esta en la lista
-    console.log(numeroGenerado);
+    //console.log(numeroGenerado);
     console.log(listaNumerosSorteados);
     //si ya sorteamos todos los numeros
     if (listaNumerosSorteados.length==numeroMaximo){
